@@ -1,17 +1,13 @@
-import Document, { Html, NextScript, Main, Head} from "next/document";
+import { Html, Head, Main, NextScript } from 'next/document'
 
-class MyDocument extends Document {
-    render(): JSX.Element {
-        return (
-            <Html lang="pl">
-                <Head />
-                <body className="bg-gray-100 antialiased">
-                    <Main />
-                    <NextScript />
-                </body>
-            </Html>
-        )
-    }
+export default function Document() {
+  return (
+    <Html>
+      <Head />
+      <body className='bg-blue-500'>
+        <Main />
+        <NextScript />
+      </body>
+    </Html>
+  )
 }
-
-export default MyDocument;
