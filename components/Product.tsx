@@ -1,4 +1,5 @@
 import { StoreApiResponse } from "../pages/products"
+
 export const Product = ({
     title,
     rating, 
